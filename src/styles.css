@@ -19,6 +19,21 @@
  */
 
 @theme inline {
+  /* Brand palette — Cabinet Avocat Bogdan Lamatic */
+  --color-ink: var(--ink);
+  --color-paper: var(--paper);
+  --color-night: var(--night);
+  --color-night-soft: var(--night-soft);
+  --color-gold: var(--gold);
+  --color-gold-dark: var(--gold-dark);
+  --color-gold-soft: var(--gold-soft);
+  --color-rule: var(--rule);
+  --color-slate-eyebrow: var(--slate-eyebrow);
+
+  --font-sans: "Geist", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  --font-script: "Great Vibes", cursive;
+
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
@@ -62,6 +77,17 @@
 }
 
 :root {
+  /* Brand palette — Cabinet Avocat Bogdan Lamatic */
+  --ink: oklch(0.1448 0 0);
+  --paper: oklch(0.9703 0.007 88.642);
+  --night: oklch(0.1496 0 0);
+  --night-soft: oklch(0.2178 0 0);
+  --gold: oklch(0.7624 0.1445 73.762);
+  --gold-dark: oklch(0.6292 0.1273 71.466);
+  --gold-soft: oklch(0.8567 0.109 81.657);
+  --rule: oklch(0.9165 0.0128 86.833);
+  --slate-eyebrow: oklch(0.551 0.0234 264.364);
+
   --radius: 0.625rem;
   --background: oklch(1 0 0);
   --foreground: oklch(0.129 0.042 264.695);
@@ -137,8 +163,30 @@
     border-color: var(--color-border);
   }
 
+  html,
   body {
-    background-color: var(--color-background);
-    color: var(--color-foreground);
+    background: var(--paper);
+    color: var(--ink);
   }
+
+  body {
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+}
+
+/* FAQ accordion: grid-rows trick lets us animate height without measuring. */
+.faq-panel {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 240ms ease;
+}
+.faq-panel[data-open="true"] {
+  grid-template-rows: 1fr;
+}
+.faq-panel > div {
+  overflow: hidden;
 }

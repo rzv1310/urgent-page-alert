@@ -12,6 +12,39 @@ import { useEffect, type ReactNode } from "react";
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
 
+const GTM_ID = "GTM-KRQRVTL3";
+
+const gtmSnippet = `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','${GTM_ID}');`;
+
+const attorneyJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Attorney",
+  name: "Cabinet Avocat Bogdan Lamatic",
+  url: "https://avocat-bogdan-lamatic.ro",
+  telephone: "+40316320183",
+  areaServed: { "@type": "City", name: "București" },
+  knowsAbout: [
+    "Drept penal",
+    "Audieri",
+    "Rețineri",
+    "Percheziții",
+    "Infracțiuni economice",
+    "Corupție",
+    "Spălare de bani",
+    "Active cripto",
+    "Droguri",
+    "Malpraxis",
+    "Accidente rutiere",
+  ],
+  aggregateRating: {
+    "@type": "AggregateRating",
+    ratingValue: "5.0",
+    reviewCount: "24",
+    bestRating: "5",
+    worstRating: "1",
+  },
+};
+
 function NotFoundComponent() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-background px-4">
@@ -77,14 +110,26 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Avocat penal București - Cabinet Bogdan Lamatic" },
+      {
+        name: "description",
+        content:
+          "Ai nevoie urgentă de un avocat penal în București? Apărare clară în dosare penale, audieri, rețineri, percheziții. +18 ani experiență. Sună 031 632 01 83.",
+      },
+      { name: "robots", content: "noindex, follow" },
+      {
+        property: "og:title",
+        content: "Avocat penal București - Cabinet Bogdan Lamatic",
+      },
+      {
+        property: "og:description",
+        content:
+          "Apărare urgentă în dosare penale. Audieri, rețineri, percheziții, citații. Discreție absolută. Sună 031 632 01 83.",
+      },
+      { property: "og:locale", content: "ro_RO" },
       { property: "og:type", content: "website" },
+      { property: "og:site_name", content: "Cabinet Avocat Bogdan Lamatic" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@Lovable" },
     ],
     links: [
       {
@@ -92,6 +137,23 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         href: appCss,
       },
       { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
+      { rel: "preconnect", href: "https://fonts.googleapis.com" },
+      {
+        rel: "preconnect",
+        href: "https://fonts.gstatic.com",
+        crossOrigin: "anonymous",
+      },
+      {
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Geist+Mono:wght@100..900&family=Great+Vibes&display=swap",
+      },
+    ],
+    scripts: [
+      { children: gtmSnippet },
+      {
+        type: "application/ld+json",
+        children: JSON.stringify(attorneyJsonLd),
+      },
     ],
   }),
   shellComponent: RootShell,
@@ -102,11 +164,19 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
 
 function RootShell({ children }: { children: ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="ro" className="h-full antialiased">
       <head>
         <HeadContent />
       </head>
-      <body>
+      <body className="min-h-full flex flex-col bg-paper text-ink">
+        <noscript>
+          <iframe
+            src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`}
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          />
+        </noscript>
         {children}
         <Scripts />
       </body>
