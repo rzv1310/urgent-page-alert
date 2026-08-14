@@ -1,0 +1,10 @@
+# Netlify builds use Nitro's "netlify" preset: static assets go to dist/ and SSR
+# runs as a Netlify Function generated in .netlify/functions-internal/.
+# Lovable's own build environment ignores NITRO_PRESET, so its Cloudflare target
+# is unaffected.
+[build]
+  command = "bun run build"
+  publish = "dist"
+
+[build.environment]
+  NITRO_PRESET = "netlify"
