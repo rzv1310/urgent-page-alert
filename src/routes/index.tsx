@@ -316,7 +316,7 @@ function Index() {
       {/* 3. Hero */}
       <section className="mx-auto w-full max-w-md px-4 pt-6 min-[400px]:px-5">
         <p
-          className="block w-full whitespace-nowrap rounded-md bg-zinc-800 px-2 py-1.5 text-center font-medium tracking-tight text-gold"
+          className="block w-full whitespace-nowrap rounded-md bg-zinc-800 px-2 py-1.5 text-center font-medium tracking-tight text-white"
           style={{ fontSize: "clamp(9px, calc(2.85vw + 2px), 15px)" }}
         >
           +18 ani EXPERIENȚĂ • RĂSPUNS RAPID • IMPLICARE 100%
@@ -328,13 +328,11 @@ function Index() {
           Primești apărare clară în dosare penale, audieri, acuzații, rețineri, percheziții, citații
           și situații urgente.
         </p>
-        <p className="mt-3 text-[16px] leading-6 text-ink/80 min-[400px]:text-[17px] min-[400px]:leading-7">
-          <strong className="font-bold text-ink">Discuți direct cu mine</strong> și afli rapid
-          ce pași să urmezi
-        </p>
-        <p className="mt-3 text-[16px] font-semibold leading-6 text-ink/80 min-[400px]:text-[17px] min-[400px]:leading-7">
-          Discreție absolută
-        </p>
+        <ul className="mt-5 list-disc space-y-2 pl-5 text-[16px] leading-6 text-ink min-[400px]:text-[17px] min-[400px]:leading-7">
+          <li>Discuți direct cu mine</li>
+          <li>Afli rapid ce pași să urmezi</li>
+          <li>Discreție absolută</li>
+        </ul>
 
         <a
           href={`tel:${PHONE_TEL}`}
