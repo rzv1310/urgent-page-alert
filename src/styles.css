@@ -29,6 +29,7 @@
   --color-gold-soft: var(--gold-soft);
   --color-rule: var(--rule);
   --color-slate-eyebrow: var(--slate-eyebrow);
+  --color-cta-yellow: var(--cta-yellow);
 
   --font-sans: "Geist", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   --font-mono: "Geist Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
@@ -85,6 +86,7 @@
   --gold: oklch(0.7624 0.1445 73.762);
   --gold-dark: oklch(0.6292 0.1273 71.466);
   --gold-soft: oklch(0.8567 0.109 81.657);
+  --cta-yellow: oklch(0.87 0.19 95);
   --rule: oklch(0.9165 0.0128 86.833);
   --slate-eyebrow: oklch(0.551 0.0234 264.364);
 
