@@ -305,7 +305,7 @@ function Index() {
           </div>
           <a
             href={WHATSAPP_HREF}
-            className="whitespace-nowrap rounded-md bg-[#25D366] px-2.5 py-2 text-[11px] font-semibold text-black shadow-sm min-[400px]:px-3.5 min-[400px]:py-2.5 min-[400px]:text-[13px]"
+            className="whitespace-nowrap rounded-md bg-[#25D366] px-2.5 py-2 text-[11px] text-black shadow-sm min-[400px]:px-3.5 min-[400px]:py-2.5 min-[400px]:text-[13px]"
           >
             WhatsApp Confidențial
           </a>
