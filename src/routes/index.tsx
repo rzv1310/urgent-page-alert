@@ -336,13 +336,10 @@ function Index() {
 
         <a
           href={`tel:${PHONE_TEL}`}
-          className="mt-6 flex h-12 w-full items-center justify-center gap-3 rounded-xl text-[17px] font-bold tracking-wide text-black shadow-md ring-1 ring-gold-dark/40 min-[400px]:h-14 min-[400px]:text-[19px]"
-          style={{
-            background: "linear-gradient(180deg, #f4c97a 0%, #e8a234 50%, #b87a1a 100%)",
-          }}
+          className="mt-6 flex h-12 w-full items-center justify-center gap-3 rounded-xl bg-cta-yellow text-[17px] font-bold tracking-wide text-black shadow-md min-[400px]:h-14 min-[400px]:text-[19px]"
         >
           <PhoneIcon className="h-5 w-5" />
-          SUNĂ ACUM
+          SUNĂ-MĂ ACUM
         </a>
 
         <div className="mt-5 flex items-center gap-2 text-[15px]">
@@ -444,7 +441,7 @@ function Index() {
           </ul>
           <a
             href={`tel:${PHONE_TEL}`}
-            className="mt-10 flex h-14 w-full items-center justify-center gap-3 rounded-md bg-gold px-4 text-[17px] font-semibold text-white shadow-md"
+            className="mt-10 flex h-14 w-full items-center justify-center gap-3 rounded-md bg-cta-yellow px-4 text-[17px] font-semibold text-black shadow-md"
           >
             <PhoneIcon className="h-5 w-5" />
             Vreau avocat!
@@ -492,7 +489,7 @@ function Index() {
           </div>
           <a
             href={`tel:${PHONE_TEL}`}
-            className="flex h-14 w-full items-center justify-center gap-3 rounded-md bg-gold px-4 text-[16px] font-semibold text-white shadow-md"
+            className="flex h-14 w-full items-center justify-center gap-3 rounded-md bg-cta-yellow px-4 text-[16px] font-semibold text-black shadow-md"
           >
             <PhoneIcon className="h-5 w-5" />
             Cere o evaluare confidențială
@@ -600,7 +597,7 @@ function Index() {
             </ul>
             <a
               href={`tel:${PHONE_TEL}`}
-              className="mt-7 flex h-14 w-full items-center justify-center gap-3 rounded-md bg-gold px-4 text-[19px] font-bold text-white shadow-md"
+              className="mt-7 flex h-14 w-full items-center justify-center gap-3 rounded-md bg-cta-yellow px-4 text-[19px] font-bold text-black shadow-md"
             >
               <PhoneIcon className="h-5 w-5" />
               {PHONE_DISPLAY}
