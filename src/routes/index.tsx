@@ -380,7 +380,7 @@ function Index() {
           <h2 className="mt-8 text-[34px] font-semibold leading-[1.15] tracking-tight">
             Nu merge singur la audieri și nu lua decizii sub presiune sau frică
           </h2>
-          <div className="mt-7 space-y-5 text-[15px] leading-7 text-white/85">
+          <div className="mt-7 space-y-5 text-[17px] leading-7 text-white/85">
             <p>
               Într-un dosar penal, primele declarații, primele semnături și primele reacții pot
               conta enorm.
@@ -471,7 +471,7 @@ function Index() {
           <h2 className="mt-3 text-[30px] font-bold leading-[1.15] tracking-tight text-ink">
             Înțelegi unde te afli în dosar și care este cea mai bună direcție de apărare.
           </h2>
-          <div className="mt-5 space-y-4 text-[15px] leading-7 text-ink/80">
+          <div className="mt-5 space-y-4 text-[17px] leading-7 text-ink/80">
             <p>
               O strategie bună pornește de la analiza atentă a actelor, probelor, declarațiilor și
               riscurilor specifice cazului tău.
@@ -505,15 +505,15 @@ function Index() {
           <h2 className="text-[32px] font-bold leading-[1.15] tracking-tight text-ink">
             Apărare penală strategică pentru dosare complexe, nu soluții standard
           </h2>
-          <p className="mt-4 inline-block rounded-md bg-zinc-800 px-3 py-2 text-[15px] font-semibold leading-6 text-gold">
+          <p className="mt-4 inline-block rounded-md bg-zinc-800 px-3 py-2 text-[17px] font-semibold leading-6 text-gold">
             Apărarea este construită personalizat, cu atenție la detalii juridice, financiare,
             tehnice și procedurale.
           </p>
           <ul className="mt-8 space-y-7">
             {SERVICES.map((s, i) => (
               <li key={i} className="border-l-[3px] border-gold pl-4">
-                <h3 className="text-[17px] font-bold leading-snug text-ink">{s.title}</h3>
-                <p className="mt-2 text-[15px] leading-7 text-ink/75">{s.body}</p>
+                <h3 className="text-[19px] font-bold leading-snug text-ink">{s.title}</h3>
+                <p className="mt-2 text-[17px] leading-7 text-ink/75">{s.body}</p>
               </li>
             ))}
           </ul>
