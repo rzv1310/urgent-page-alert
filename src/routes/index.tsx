@@ -293,13 +293,13 @@ function Index() {
       </a>
 
       {/* 2. Brand header */}
-      <header className="mx-auto w-full max-w-md px-4 pt-5 min-[400px]:px-5">
+      <header className="mx-auto w-full max-w-md px-4 pt-3 min-[400px]:px-5 min-[400px]:pt-5">
         <div className="flex items-center justify-between gap-3 min-[400px]:gap-4">
           <div className="leading-tight">
             <p className="text-[9px] font-medium tracking-[0.18em] text-slate-eyebrow min-[400px]:text-[11px] min-[400px]:tracking-[0.22em]">
               CABINET AVOCAT
             </p>
-            <p className="font-script text-[26px] leading-none text-slate-eyebrow min-[400px]:text-[32px]">
+            <p className="font-script text-[24px] leading-none text-slate-eyebrow min-[400px]:text-[32px]">
               Bogdan Lamatic
             </p>
           </div>
