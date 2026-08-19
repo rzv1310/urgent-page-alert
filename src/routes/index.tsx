@@ -329,8 +329,8 @@ function Index() {
           și situații urgente.
         </p>
         <p className="mt-3 text-[16px] leading-6 text-ink/80 min-[400px]:text-[17px] min-[400px]:leading-7">
-          <span className="underline underline-offset-4">Discuți direct cu mine</span> și afli rapid
-          ce pași să urmezi:
+          <strong className="font-bold text-ink">Discuți direct cu mine</strong> și afli rapid
+          ce pași să urmezi
         </p>
         <p className="mt-3 text-[16px] font-semibold leading-6 text-ink/80 min-[400px]:text-[17px] min-[400px]:leading-7">
           Discreție absolută
