@@ -517,7 +517,7 @@ function Index() {
           </ul>
           <a
             href={WHATSAPP_HREF}
-            className="mt-10 flex h-14 w-full items-center justify-center gap-3 rounded-md bg-[#128C7E] px-4 text-[17px] font-semibold text-white shadow-md"
+            className="mt-10 flex h-14 w-full items-center justify-center gap-3 rounded-md bg-[#25D366] px-4 text-[17px] font-semibold text-white shadow-md"
           >
             <WhatsAppIcon className="h-5 w-5" />
             Scrie-mi aici confidențial
