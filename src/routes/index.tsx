@@ -525,17 +525,7 @@ function Index() {
         </div>
       </section>
 
-      {/* 8. FAQ */}
-      <section className="bg-paper">
-        <div className="mx-auto w-full max-w-md px-5 pb-12">
-          <h2 className="mb-6 text-[28px] font-bold tracking-tight text-ink">
-            Întrebări frecvente
-          </h2>
-          <Faq items={FAQ_ITEMS} />
-        </div>
-      </section>
-
-      {/* 9. Final CTA */}
+      {/* 8. Final CTA */}
       <section className="bg-paper">
         <div className="mx-auto w-full max-w-md">
           <div className="relative aspect-[8/5] w-full bg-zinc-200">
@@ -608,6 +598,17 @@ function Index() {
           </div>
         </div>
       </section>
+
+      {/* 9. FAQ */}
+      <section className="bg-paper">
+        <div className="mx-auto w-full max-w-md px-5 pb-12">
+          <h2 className="mb-6 text-[28px] font-bold tracking-tight text-ink">
+            Întrebări frecvente
+          </h2>
+          <Faq items={FAQ_ITEMS} />
+        </div>
+      </section>
+
 
       {/* 10. Footer */}
       <footer className="bg-night text-white/70">
