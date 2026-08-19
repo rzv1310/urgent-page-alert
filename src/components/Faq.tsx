@@ -75,7 +75,7 @@ export function Faq({ items }: { items: readonly FaqItem[] }) {
               aria-expanded={isOpen}
               aria-controls={panelId}
               onClick={() => setOpen(isOpen ? null : i)}
-              className="flex w-full items-center justify-between gap-4 px-5 py-5 text-left text-base font-semibold text-ink"
+              className="flex w-full items-center justify-between gap-4 px-5 py-5 text-left text-[18px] font-semibold text-ink"
             >
               <span>{item.q}</span>
               <svg
@@ -101,7 +101,7 @@ export function Faq({ items }: { items: readonly FaqItem[] }) {
               data-open={isOpen}
             >
               <div>
-                <p className="whitespace-pre-line px-5 pb-5 text-[15px] leading-7 text-ink/70">
+                <p className="whitespace-pre-line px-5 pb-5 text-[17px] leading-7 text-ink/70">
                   {renderAnswer(item.a)}
                 </p>
               </div>
