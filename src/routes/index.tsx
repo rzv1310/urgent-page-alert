@@ -293,19 +293,19 @@ function Index() {
       </a>
 
       {/* 2. Brand header */}
-      <header className="mx-auto w-full max-w-md px-4 pt-5 min-[400px]:px-5">
+      <header className="mx-auto w-full max-w-md px-4 pt-3 min-[400px]:px-5 min-[400px]:pt-5">
         <div className="flex items-center justify-between gap-3 min-[400px]:gap-4">
           <div className="leading-tight">
             <p className="text-[9px] font-medium tracking-[0.18em] text-slate-eyebrow min-[400px]:text-[11px] min-[400px]:tracking-[0.22em]">
               CABINET AVOCAT
             </p>
-            <p className="font-script text-[26px] leading-none text-slate-eyebrow min-[400px]:text-[32px]">
+            <p className="font-script text-[24px] leading-none text-slate-eyebrow min-[400px]:text-[32px]">
               Bogdan Lamatic
             </p>
           </div>
           <a
             href={WHATSAPP_HREF}
-            className="whitespace-nowrap rounded-md bg-[#25D366] px-2.5 py-2 text-[11px] font-semibold text-white shadow-sm min-[400px]:px-3.5 min-[400px]:py-2.5 min-[400px]:text-[13px]"
+            className="whitespace-nowrap rounded-md bg-[#25D366] px-2.5 py-2 text-[11px] font-semibold text-black shadow-sm min-[400px]:px-3.5 min-[400px]:py-2.5 min-[400px]:text-[13px]"
           >
             WhatsApp Confidențial
           </a>
@@ -517,7 +517,7 @@ function Index() {
           </ul>
           <a
             href={WHATSAPP_HREF}
-            className="mt-10 flex h-14 w-full items-center justify-center gap-3 rounded-md bg-[#25D366] px-4 text-[17px] font-semibold text-white shadow-md"
+            className="mt-10 flex h-14 w-full items-center justify-center gap-3 rounded-md bg-[#25D366] px-4 text-[17px] font-semibold text-black shadow-md"
           >
             <WhatsAppIcon className="h-5 w-5" />
             Scrie-mi aici confidențial
