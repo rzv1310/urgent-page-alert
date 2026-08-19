@@ -328,7 +328,7 @@ function Index() {
           Primești apărare clară în dosare penale, audieri, acuzații, rețineri, percheziții, citații
           și situații urgente.
         </p>
-        <ul className="mt-5 list-disc space-y-2 pl-5 text-[16px] leading-6 text-ink min-[400px]:text-[17px] min-[400px]:leading-7">
+        <ul className="mt-5 list-disc space-y-1 pl-5 text-[16px] leading-6 text-ink min-[400px]:text-[17px] min-[400px]:leading-7">
           <li>Discuți direct cu mine</li>
           <li>Afli rapid ce pași să urmezi</li>
           <li>Discreție absolută</li>
