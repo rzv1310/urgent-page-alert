@@ -609,8 +609,21 @@ function Index() {
         </div>
       </section>
 
+      {/* 10. Final WhatsApp CTA */}
+      <section className="bg-paper">
+        <div className="mx-auto w-full max-w-md px-5 pb-12">
+          <a
+            href={WHATSAPP_HREF}
+            className="flex h-14 w-full items-center justify-center gap-3 rounded-md bg-[#25D366] px-4 text-[17px] text-black shadow-md"
+          >
+            <WhatsAppIcon className="h-5 w-5" />
+            Scrie-mi in Whatsapp
+          </a>
+        </div>
+      </section>
 
-      {/* 10. Footer */}
+      {/* 11. Footer */}
+
       <footer className="bg-night text-white/70">
         <div className="mx-auto w-full max-w-md px-5 py-8 text-[13px]">
           <p className="font-semibold text-white">Cabinet Avocat Bogdan Lamatic</p>
