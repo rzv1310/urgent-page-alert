@@ -39,7 +39,7 @@ const attorneyJsonLd = {
   aggregateRating: {
     "@type": "AggregateRating",
     ratingValue: "5.0",
-    reviewCount: "24",
+    reviewCount: "28",
     bestRating: "5",
     worstRating: "1",
   },

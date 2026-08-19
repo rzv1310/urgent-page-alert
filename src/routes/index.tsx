@@ -347,7 +347,7 @@ function Index() {
         <div className="mt-5 flex items-center gap-2 text-[15px]">
           <span className="font-semibold text-ink">5.0</span>
           <StarRow />
-          <span className="text-ink/70">din 24 recenzii</span>
+          <span className="text-ink/70">din 28 recenzii</span>
           <GoogleLogo className="ml-1 h-4 w-auto" />
         </div>
 
