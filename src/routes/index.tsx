@@ -324,13 +324,16 @@ function Index() {
         <h1 className="mt-4 text-[26px] font-bold leading-[1.1] tracking-tight text-ink min-[400px]:text-[34px]">
           Ai nevoie urgentă de un avocat penal în București?
         </h1>
-        <p className="mt-5 text-[14px] leading-6 text-ink/80 min-[400px]:text-[15px] min-[400px]:leading-7">
+        <p className="mt-5 text-[16px] leading-6 text-ink/80 min-[400px]:text-[17px] min-[400px]:leading-7">
           Primești apărare clară în dosare penale, audieri, acuzații, rețineri, percheziții, citații
           și situații urgente.
         </p>
-        <p className="mt-3 text-[14px] leading-6 text-ink/80 min-[400px]:text-[15px] min-[400px]:leading-7">
+        <p className="mt-3 text-[16px] leading-6 text-ink/80 min-[400px]:text-[17px] min-[400px]:leading-7">
           <span className="underline underline-offset-4">Discuți direct cu mine</span> și afli rapid
           ce pași să urmezi:
+        </p>
+        <p className="mt-3 text-[16px] font-semibold leading-6 text-ink/80 min-[400px]:text-[17px] min-[400px]:leading-7">
+          Discreție absolută
         </p>
 
         <a
