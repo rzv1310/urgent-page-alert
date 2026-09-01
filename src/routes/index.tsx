@@ -5,8 +5,8 @@ export const Route = createFileRoute("/")({
   component: Index,
 });
 
-const PHONE_DISPLAY = "031 632 01 83";
-const PHONE_TEL = "+40316320183";
+const PHONE_DISPLAY = "+40 745 506 443";
+const PHONE_TEL = "+40745506443";
 const WHATSAPP_HREF = "https://wa.me/40745506443";
 
 type Service = { title: string; body: string };
@@ -101,7 +101,7 @@ const FAQ_ITEMS: readonly { q: string; a: string }[] = [
   },
   {
     q: "Răspundeți și în afara orelor de program, în weekend sau noaptea?",
-    a: "Da, când este o urgență reală (reținere, percheziție, audiere fixată pentru a doua zi). Sună la 031 632 01 83. Dacă nu răspund imediat, revin în maximum 30 de minute.",
+    a: "Da, când este o urgență reală (reținere, percheziție, audiere fixată pentru a doua zi). Sună la +40 745 506 443. Dacă nu răspund imediat, revin în maximum 30 de minute.",
   },
   {
     q: "Preluați dosare și în afara Bucureștiului?",
@@ -109,11 +109,11 @@ const FAQ_ITEMS: readonly { q: string; a: string }[] = [
   },
   {
     q: "Cât costă reprezentarea într-un dosar penal?",
-    a: "Onorariul depinde de complexitatea dosarului și de stadiul procesului. La prima consultanță (gratuită) stabilesc un tarif estimativ și toate costurile sunt prevăzute transparent în contract. Sunați-mă la +40 (31) 632 01 83",
+    a: "Onorariul depinde de complexitatea dosarului și de stadiul procesului. La prima consultanță (gratuită) stabilesc un tarif estimativ și toate costurile sunt prevăzute transparent în contract. Sunați-mă la +40 745 506 443",
   },
   {
     q: "Oferiți consultanță inițială gratuită?",
-    a: "Da, ofer o primă discuție gratuită pentru evaluarea situației juridice și a posibilelor strategii de apărare. Telefon +40 (31) 632 01 83",
+    a: "Da, ofer o primă discuție gratuită pentru evaluarea situației juridice și a posibilelor strategii de apărare. Telefon +40 745 506 443",
   },
   {
     q: "Aveți experiență în dosare penale legate de droguri?",
@@ -121,11 +121,11 @@ const FAQ_ITEMS: readonly { q: string; a: string }[] = [
   },
   {
     q: "Cât durează un proces penal?",
-    a: "Poate varia de la câteva luni la câțiva ani, în funcție de complexitatea cazului și etapele procesuale. Voi face tot posibilul să accelerez procedura în limitele legii. Sunați-mă la +40 (31) 632 01 83 pentru o consultație gratuită.",
+    a: "Poate varia de la câteva luni la câțiva ani, în funcție de complexitatea cazului și etapele procesuale. Voi face tot posibilul să accelerez procedura în limitele legii. Sunați-mă la +40 745 506 443 pentru o consultație gratuită.",
   },
   {
     q: "Care sunt drepturile mele ca suspect sau inculpat?",
-    a: "Aveți dreptul la avocat, la informarea corectă asupra acuzațiilor, la consultarea dosarului și la un proces echitabil. Le voi explica detaliat în raport cu cazul dvs. Telefon +40 (31) 632 01 83",
+    a: "Aveți dreptul la avocat, la informarea corectă asupra acuzațiilor, la consultarea dosarului și la un proces echitabil. Le voi explica detaliat în raport cu cazul dvs. Telefon +40 745 506 443",
   },
   {
     q: "Mă reprezentați dvs. personal în instanță sau trimiteți pe altcineva din echipă?",
@@ -137,15 +137,15 @@ const FAQ_ITEMS: readonly { q: string; a: string }[] = [
   },
   {
     q: "Cum pot găsi un avocat bun în România sau în București?",
-    a: "Experiența si expertiza mea sunt detaliate aici: https://avocatpenalbucuresti.ro/despre-mine\nSunați-mă pentru o consultație gratuită la 0316320183",
+    a: "Experiența si expertiza mea sunt detaliate aici: https://avocatpenalbucuresti.ro/despre-mine\nSunați-mă pentru o consultație gratuită la +40 745 506 443",
   },
   {
     q: "Pot evita cazierul judiciar dacă îmi recunosc vina?",
-    a: "În anumite situații, legea permite aplicarea unor pedepse fără înscriere în cazier (ex. renunțarea la urmărirea penală, amenda administrativă, renunțarea la aplicarea pedepsei). Fiecare caz se analizează individual. Sunați-ma la +40 (31) 632 01 83",
+    a: "În anumite situații, legea permite aplicarea unor pedepse fără înscriere în cazier (ex. renunțarea la urmărirea penală, amenda administrativă, renunțarea la aplicarea pedepsei). Fiecare caz se analizează individual. Sunați-ma la +40 745 506 443",
   },
   {
     q: "Ce drepturi am în cazul reținerii de către poliție?",
-    a: "Aveți dreptul să fiți informat asupra motivelor, să beneficiați de avocat ales sau din oficiu, să cereți un interpret dacă nu vorbiți româna și să primiți asistență medicală dacă este nevoie. Mă puteți suna începând cu ora 6 dimineața. Telefon +40 (31) 632 01 83",
+    a: "Aveți dreptul să fiți informat asupra motivelor, să beneficiați de avocat ales sau din oficiu, să cereți un interpret dacă nu vorbiți româna și să primiți asistență medicală dacă este nevoie. Mă puteți suna începând cu ora 6 dimineața. Telefon +40 745 506 443",
   },
   {
     q: "Ce este eliberarea condiționată și pot beneficia de ea?",
@@ -153,7 +153,7 @@ const FAQ_ITEMS: readonly { q: string; a: string }[] = [
   },
   {
     q: "Cât timp poate dura o anchetă penală?",
-    a: "Durata depinde de complexitatea cazului și de numărul probelor, însă legea nu prevede termene maxime pentru fiecare etapă. Sunați-mă la +40 (31) 632 01 83",
+    a: "Durata depinde de complexitatea cazului și de numărul probelor, însă legea nu prevede termene maxime pentru fiecare etapă. Sunați-mă la +40 745 506 443",
   },
   {
     q: "Pot refuza să dau declarații împotriva mea?",
@@ -161,27 +161,27 @@ const FAQ_ITEMS: readonly { q: string; a: string }[] = [
   },
   {
     q: "Ce trebuie să fac dacă nu sunt de acord cu acuzațiile care mi se aduc?",
-    a: "Contactați-mă imediat la +40 (31) 632 01 83. Voi analiza acuzațiile, voi pregăti apărarea și voi contesta probele sau procedurile ilegale pentru a vă proteja drepturile.",
+    a: "Contactați-mă imediat la +40 745 506 443. Voi analiza acuzațiile, voi pregăti apărarea și voi contesta probele sau procedurile ilegale pentru a vă proteja drepturile.",
   },
   {
     q: "Am fost prins conducând sub influența alcoolului. Ce risc?",
-    a: "În funcție de alcoolemie, fapta poate fi contravenție sau infracțiune. Se poate ajunge la dosar penal, suspendarea permisului și chiar pedeapsă cu închisoarea. Apărarea corectă poate reduce sancțiunea. Sunați-mă la +40 (31) 632 01 83",
+    a: "În funcție de alcoolemie, fapta poate fi contravenție sau infracțiune. Se poate ajunge la dosar penal, suspendarea permisului și chiar pedeapsă cu închisoarea. Apărarea corectă poate reduce sancțiunea. Sunați-mă la +40 745 506 443",
   },
   {
     q: "Poliția a găsit droguri asupra mea, dar erau pentru consum propriu. Ce urmează?",
-    a: "Deținerea de droguri pentru consum este infracțiune. În anumite condiții, se poate obține renunțarea la urmărirea penală sau suspendarea pedepsei. Este important să aveți avocat încă din prima fază. Sunați-mă la +40 (31) 632 01 83",
+    a: "Deținerea de droguri pentru consum este infracțiune. În anumite condiții, se poate obține renunțarea la urmărirea penală sau suspendarea pedepsei. Este important să aveți avocat încă din prima fază. Sunați-mă la +40 745 506 443",
   },
   {
     q: "Am fost acuzat de furt, dar nu există probe clare. Cum mă pot apăra?",
-    a: "Lipsa probelor suficiente sau probe obținute ilegal pot duce la clasarea dosarului sau la achitare. Vom analiza actele dosarului și vom formula apărările necesare. Telefon +40 (31) 632 01 83",
+    a: "Lipsa probelor suficiente sau probe obținute ilegal pot duce la clasarea dosarului sau la achitare. Vom analiza actele dosarului și vom formula apărările necesare. Telefon +40 745 506 443",
   },
   {
     q: "Ce se întâmplă dacă refuz testul de alcoolemie sau de droguri?",
-    a: "Refuzul testării este infracțiune distinctă și atrage dosar penal. Este mai grav decât un rezultat pozitiv, de aceea e important să cereți imediat asistență juridică. Sunați-mă la +40 (31) 632 01 83",
+    a: "Refuzul testării este infracțiune distinctă și atrage dosar penal. Este mai grav decât un rezultat pozitiv, de aceea e important să cereți imediat asistență juridică. Sunați-mă la +40 745 506 443",
   },
   {
     q: "Sunt suspect de violență domestică. Care sunt consecințele?",
-    a: "Violența domestică este infracțiune, iar pe lângă pedeapsă se pot dispune ordine de protecție. Voi construi apărarea luând în calcul declarațiile martorilor, probele și circumstanțele. Telefon +40 (31) 632 01 83",
+    a: "Violența domestică este infracțiune, iar pe lângă pedeapsă se pot dispune ordine de protecție. Voi construi apărarea luând în calcul declarațiile martorilor, probele și circumstanțele. Telefon +40 745 506 443",
   },
   {
     q: "Am primit citație ca martor într-un dosar penal. Pot să nu merg?",
@@ -189,7 +189,7 @@ const FAQ_ITEMS: readonly { q: string; a: string }[] = [
   },
   {
     q: "Ce fac dacă sunt acuzat pe nedrept?",
-    a: "Contactați imediat un avocat. Sunați-mă la +40 (31) 632 01 83 Vom contesta probele, vom aduce martori și expertize independente, iar în unele cazuri putem formula plângere pentru denunț calomnios.",
+    a: "Contactați imediat un avocat. Sunați-mă la +40 745 506 443 Vom contesta probele, vom aduce martori și expertize independente, iar în unele cazuri putem formula plângere pentru denunț calomnios.",
   },
   {
     q: "Pot fi reținut mai mult de 24 de ore de poliție?",

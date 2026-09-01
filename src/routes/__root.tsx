@@ -21,7 +21,7 @@ const attorneyJsonLd = {
   "@type": "Attorney",
   name: "Cabinet Avocat Bogdan Lamatic",
   url: "https://avocat-bogdan-lamatic.ro",
-  telephone: "+40316320183",
+  telephone: "+40745506443",
   areaServed: { "@type": "City", name: "București" },
   knowsAbout: [
     "Drept penal",
@@ -114,7 +114,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         name: "description",
         content:
-          "Ai nevoie urgentă de un avocat penal în București? Apărare clară în dosare penale, audieri, rețineri, percheziții. +18 ani experiență. Sună 031 632 01 83.",
+          "Ai nevoie urgentă de un avocat penal în București? Apărare clară în dosare penale, audieri, rețineri, percheziții. +18 ani experiență. Sună +40 745 506 443.",
       },
       { name: "robots", content: "noindex, follow" },
       {
@@ -124,7 +124,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         property: "og:description",
         content:
-          "Apărare urgentă în dosare penale. Audieri, rețineri, percheziții, citații. Discreție absolută. Sună 031 632 01 83.",
+          "Apărare urgentă în dosare penale. Audieri, rețineri, percheziții, citații. Discreție absolută. Sună +40 745 506 443.",
       },
       { property: "og:locale", content: "ro_RO" },
       { property: "og:type", content: "website" },
