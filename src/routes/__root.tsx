@@ -21,7 +21,7 @@ const attorneyJsonLd = {
   "@type": "Attorney",
   name: "Cabinet Avocat Bogdan Lamatic",
   url: "https://avocat-bogdan-lamatic.ro",
-  telephone: "+40316320183",
+  telephone: "+40745506443",
   areaServed: { "@type": "City", name: "București" },
   knowsAbout: [
     "Drept penal",

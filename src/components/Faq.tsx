@@ -2,13 +2,13 @@ import { Fragment, useState } from "react";
 
 type FaqItem = { q: string; a: string };
 
-const PHONE_DISPLAY = "031 632 01 83";
-const PHONE_TEL = "+40316320183";
+const PHONE_DISPLAY = "+40 745 506 443";
+const PHONE_TEL = "+40745506443";
 const WHATSAPP_HREF = "https://wa.me/40745506443";
 
-const PHONE_VARIANTS = ["+40 (31) 632 01 83", "031 632 01 83", "0316320183"];
+const PHONE_VARIANTS = ["+40 745 506 443", "0745 506 443", "+40745506443"];
 
-const PATTERN = /(https?:\/\/[^\s]+|\+40 \(31\) 632 01 83|031 632 01 83|0316320183|WhatsApp)/g;
+const PATTERN = /(https?:\/\/[^\s]+|\+40 745 506 443|0745 506 443|\+40745506443|WhatsApp)/g;
 
 function renderAnswer(text: string) {
   return text.split(PATTERN).map((part, i) => {

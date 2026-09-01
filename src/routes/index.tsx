@@ -5,8 +5,8 @@ export const Route = createFileRoute("/")({
   component: Index,
 });
 
-const PHONE_DISPLAY = "031 632 01 83";
-const PHONE_TEL = "+40316320183";
+const PHONE_DISPLAY = "+40 745 506 443";
+const PHONE_TEL = "+40745506443";
 const WHATSAPP_HREF = "https://wa.me/40745506443";
 
 type Service = { title: string; body: string };
